@@ -24,3 +24,12 @@ export XMODIFIERS="@im=fcitx"
 ````
 echo "/usr/bin/fcitx-autostart" >> ~/.config/openbox/autostart 
 ````
+
+配置git用户密码
+````
+.git/config
+
+[credential]
+    helper = store
+````
+
