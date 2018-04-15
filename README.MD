@@ -1,4 +1,4 @@
-#archbang 安装
+# archbang 安装
 
 设置仓库
 ````
@@ -18,10 +18,9 @@ cat >  ~/.config/openbox/environment
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS="@im=fcitx"
-
 ````
+
 配置fcitx自启动
 ````
 echo "/usr/bin/fcitx-autostart" >> ~/.config/openbox/autostart 
-
-
+````
