@@ -14,6 +14,7 @@ sudo pacman -S fcitx-im
 sudo pacman -S fcitx-configtool
 ````
 设置fcitx环境变量
+````
 cat >  ~/.config/openbox/environment 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
